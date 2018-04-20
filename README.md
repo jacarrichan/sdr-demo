@@ -1,8 +1,17 @@
 # spring-boot-mybatis-with-redis
-spring-boot + mybatis + redis as second level cache
+spring-boot + mybatis + redis .
+
+直接使用【SpringBootApplicationTests】把项目跑起来，它会使用嵌入式H2数据库，并且自动创建表结构和插入测试数据。
 
 配置文件为application.yml。
 
+
+
+
+
+
+
+spring-cache  把redis里面的数据反序列化的过程如下：
 
 callstack
 
